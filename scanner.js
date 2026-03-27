@@ -10,7 +10,7 @@ const USDC = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
 const SUSHISWAP_ROUTER = "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F";
 const UNISWAPV2_ROUTER = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
 
-// ⚠️ Paste your deployed mainnet contract address here after deploying
+// ⚠️ Mainnet contract address
 const CONTRACT_ADDRESS = "0x1C33Db5FC563ac9732C5352c37B73d95b7015E6f";
 const FLASH_LOAN_AMOUNT = ethers.parseUnits("1", 18); // 1 WETH
 const MIN_PROFIT_THRESHOLD = 0.02; // raise from 0.005 to 0.02 WETH // minimum 0.005 WETH profit to execute (~$10)
